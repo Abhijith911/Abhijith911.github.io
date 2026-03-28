@@ -445,8 +445,49 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
   <div class="container">
     <div class="label reveal">Selected Work</div>
 
-    <a href="https://github.com/Abhijith911/smart-energy-management-system" target="_blank" class="project-row reveal">
+    <a href="https://github.com/Abhijith911/vision-based-smart-parking" target="_blank" class="project-row reveal">
       <div class="proj-num-col"><div class="proj-num">01</div></div>
+      <div class="proj-content">
+        <div class="proj-header">
+          <div class="proj-title-wrap">
+            <div class="proj-tags">
+              <span class="proj-tag hl">Mini Project</span>
+              <span class="proj-tag">Raspberry Pi 4</span>
+              <span class="proj-tag">OpenCV</span>
+              <span class="proj-tag">Tesseract OCR</span>
+              <span class="proj-tag">Flask</span>
+              <span class="proj-tag">ESP8266</span>
+            </div>
+            <div class="proj-title">Vision-Based Smart Parking System</div>
+          </div>
+          <div class="proj-arrow">&#8599;</div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-desc">
+            <p>Fully automated parking system deployed on Raspberry Pi 4. Pi Camera V2 captures vehicle frames via a GStreamer libcamera pipeline; OpenCV detects number plates using Canny edge detection, contour analysis, and aspect ratio filtering; Tesseract OCR extracts and validates Indian plate numbers.</p>
+            <p style="margin-top:12px;">ESP8266 firmware reads HC-SR04 ultrasonic sensor with a 2.5-second confirmation filter and sends <code style="font-size:11px;color:var(--amber)">VEHICLE_DETECTED</code> over UART to the Pi, triggering slot confirmation via PySerial. A Flask dashboard displays live slot status, estimated fees, overstay alerts, reservation, blacklist/whitelist, and a waiting queue — all auto-refreshing every 5 seconds.</p>
+          </div>
+          <div class="proj-img-wrap">
+            <div style="border:1px solid var(--rule);padding:20px;display:flex;flex-direction:column;gap:10px;">
+              <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--bone3);margin-bottom:4px;">System Stack</div>
+              <div style="font-size:11px;color:var(--bone2);line-height:1.9;">
+                Camera → GStreamer → OpenCV<br>
+                Canny → Contours → OCR<br>
+                UART → PySerial → Flask<br>
+                JSON · Excel · Bootstrap
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj-footer">
+          <span class="proj-type">Computer Vision &middot; Embedded &middot; IoT &middot; Web</span>
+          <span class="proj-link-label">View on GitHub &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://github.com/Abhijith911/smart-energy-management-system" target="_blank" class="project-row reveal">
+      <div class="proj-num-col"><div class="proj-num">02</div></div>
       <div class="proj-content">
         <div class="proj-header">
           <div class="proj-title-wrap">
@@ -478,7 +519,7 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
     </a>
 
     <a href="https://github.com/Abhijith911/32bit-ripple-carry-adder" target="_blank" class="project-row reveal">
-      <div class="proj-num-col"><div class="proj-num">02</div></div>
+      <div class="proj-num-col"><div class="proj-num">03</div></div>
       <div class="proj-content">
         <div class="proj-header">
           <div class="proj-title-wrap">
@@ -509,7 +550,7 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
     </a>
 
     <a href="https://github.com/Abhijith911/ultrasonic-water-level-indicator" target="_blank" class="project-row reveal">
-      <div class="proj-num-col"><div class="proj-num">03</div></div>
+      <div class="proj-num-col"><div class="proj-num">04</div></div>
       <div class="proj-content">
         <div class="proj-header">
           <div class="proj-title-wrap">
