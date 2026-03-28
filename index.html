@@ -260,6 +260,13 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
   .nav-cta{display:none;}
   .nav-github{display:none;}
 }
+.edge-img img {
+  object-fit: contain;
+}
+
+.edge-img {
+  height: 240px;
+}  
 </style>
 </head>
 <body>
@@ -511,7 +518,7 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
             A distributed energy monitoring network built on Raspberry Pi and ESP32 nodes communicating over MQTT. Live sensor data streams to an Adafruit IO dashboard, with configurable threshold alerts for remote appliance control.
             <div class="so-what"><strong>Why it matters:</strong> Demonstrates end-to-end IoT architecture &mdash; firmware on the microcontroller, broker middleware, and cloud visualization &mdash; all working in real time.</div>
           </div>
-          <div class="proj-img-wrap">
+          <div class="proj-img-wrap edge-img">
             <img src="images/edge-iot.jpeg" alt="Edge IoT">
           </div>
         </div>
