@@ -135,7 +135,7 @@ section{padding:120px 0;}
 
 .proj-arrow{font-size:20px;color:var(--bone3);transition:transform .2s,color .2s;flex-shrink:0;margin-top:4px;line-height:1;}
 
-.proj-body{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:start;}
+.proj-body{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:centre;}
 .proj-desc{font-size:13px;color:var(--bone2);line-height:1.85;}
 .proj-desc .so-what{margin-top:12px;padding-top:12px;border-top:1px solid var(--rule2);color:var(--bone);font-size:12px;}
 .proj-desc .so-what strong{color:var(--amber);}
@@ -260,13 +260,18 @@ footer{border-top:1px solid var(--rule);padding:24px 64px;display:flex;justify-c
   .nav-cta{display:none;}
   .nav-github{display:none;}
 }
-.edge-img img {
-  object-fit: contain;
+.edge-img {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.edge-img {
-  height: 240px;
-}  
+.edge-img img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+} 
 </style>
 </head>
 <body>
